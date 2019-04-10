@@ -19,7 +19,7 @@ if(p>0)
   write(fd[1],buff,strlen(buff));
   close(fd2[1]);
   n=read(fd2[0],buff,100);
-  write(1,buff,strlen(buff));
+  printf("%s",buff);
   }
 else
   {
